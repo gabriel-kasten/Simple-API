@@ -22,5 +22,4 @@ const getPong = () => {
 
 const clearResponse = () => {
   responseDiv.innerHTML = '';
-  codeDiv.hidden = true;
 };
