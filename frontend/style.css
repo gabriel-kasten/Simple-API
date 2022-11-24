@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  background-color: dimgray;
+}
+
+button {
+  background-color: aliceblue;
+
+  outline: transparent;
+
+  border: none;
+  border-radius: 20px;
+
+  height: 30px;
+  width: 75px;
+
+  margin: 15px;
+}
+
+button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+button:focus:not(.reset) {
+  background-color: red;
+}
+
+#code {
+  margin: 15px;
+
+  background-color: darkslategrey;
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+
+  border: 1px solid aliceblue;
+
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
